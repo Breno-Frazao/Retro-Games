@@ -71,7 +71,7 @@ button{
 button:hover{
     background: #120032;
 }
-.listar-discos{
+.listar-jogos{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap:20px;
@@ -79,7 +79,7 @@ button:hover{
 #mensagemVazia{
     color:#70675f;
 }
-.card-disco{
+.card-jogo{
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -94,13 +94,13 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
-.info-disco{
+.info-jogo{
     margin-bottom: 8px;
 }
-.info-disco h3{
+.info-jogo h3{
     margin-bottom: 8px;
 }
-.info-disco p{
+.info-jogo p{
     margin-top: 8px;
     color: #8e90c0;
     overflow-wrap: anywhere;
