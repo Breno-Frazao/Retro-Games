@@ -57,7 +57,7 @@ app.use(express.urlencoded({extended: true}))
 const porta = 3000
 
 //rotas
-app.use("/listar", monstrarJogos)
+app.get("/listar", monstrarJogos) 
 app.post("/cadastrar", novoJogo)
 
 app.listen(porta,()=>{
